@@ -8,5 +8,23 @@ def root():
 
 @app.route("/vastaus")
 def vastaus():
-    return render_template('vastaus.html', nimi=request.args['nimi'])
+    return render_template('vastaus.html', väri=request.args['color'])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__=='__main__':
+    app.run(debug=True)
 

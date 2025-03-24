@@ -1,12 +1,27 @@
 <html>
 <head>
 	<link rel=stylesheet href="{{url_for('static',filename='tyylit.css')}}">
+	<link rel="icon" type=image/jpeg href="https://i.pinimg.com/736x/50/a4/3c/50a43c860ec794f21e750656585b9500.jpg">
+	<title> Color🎨</title>
+	<style>
+		body {
+			background-image: url('https://i.pinimg.com/736x/fc/e8/e8/fce8e8eba1523ce2d5ed88d321fa4a9d.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
 </head>
 <body>
-	<h1>Tähän nimi kiitos!</h1>
+	<h1><font color="brown"> Write the color you want:</h1> </font>
 	<form method=GET action=vastaus>
-		<input type=text name="nimi">
-		<input type=submit value="Paina minua">
+    	
+		<input type=text name="color">
+		<input type=submit value="try it!" style="background-color: brown; color: white;">
 	</form>
+    
 </body>
 </html>
